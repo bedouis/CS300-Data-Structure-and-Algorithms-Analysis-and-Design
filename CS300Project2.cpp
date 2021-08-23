@@ -24,7 +24,9 @@ void BinarySearchTree::inOrder(Node* node) {
     }
 }
 
-
+/* When MEnu option 2 is chosen, the InOrder() function is called
+* and the list of courses is displayed in alphanumeric order
+*/
             case '2':
                 cout << "Here is a sample schedule:" << endl;
                 bst->InOrder();
